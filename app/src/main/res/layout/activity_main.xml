@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Any Name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dial"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <Button
+            android:id="@+id/btn_WhatApp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="WhatApp"
+           android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/btn_Instagram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Instagram"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/btn_Youtube"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:text="Youtube"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
